@@ -1,4 +1,5 @@
 System.register(['angular2/platform/browser', './app.component'], function(exports_1) {
+    "use strict";
     var browser_1, app_component_1;
     return {
         setters:[
@@ -9,7 +10,7 @@ System.register(['angular2/platform/browser', './app.component'], function(expor
                 app_component_1 = app_component_1_1;
             }],
         execute: function() {
-            console.log('mama2sonshi');
+            console.log('mama2sonshi moon base');
             browser_1.bootstrap(app_component_1.AppComponent);
         }
     }
