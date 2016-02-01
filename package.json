@@ -8,18 +8,25 @@
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "license": "ISC",
-  "dependencies": {
-    "angular2": "2.0.0-beta.0",
-    "systemjs": "0.19.6",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.3",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.0",
-    "zone.js": "0.5.10"
-  },
+  "dependencies": {},
   "devDependencies": {
     "concurrently": "^1.0.0",
     "lite-server": "^1.3.1",
     "typescript": "^1.7.3"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.2",
+      "crypto": "github:jspm/nodelibs-crypto@^0.1.0",
+      "es6-shim": "github:es-shims/es6-shim@^0.34.2",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3",
+      "rxjs": "npm:rxjs@^5.0.0-beta.1",
+      "zone.js": "npm:zone.js@^0.5.11"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
